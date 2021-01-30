@@ -34,3 +34,24 @@
 22:44:27.630255 version@stat F·[3] S·594B[594B] Sc·[0.75]
 22:44:27.673902 db@janitor F·5 G·0
 22:44:27.673961 db@open done T·59.574495ms
+23:29:07.322236 db@close closing
+23:29:07.322783 db@close done T·531.883µs
+=============== Jan 29, 2021 (CST) ===============
+23:31:05.887211 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+23:31:05.888583 version@stat F·[3] S·594B[594B] Sc·[0.75]
+23:31:05.888639 db@open opening
+23:31:05.888783 journal@recovery F·1
+23:31:05.892224 journal@recovery recovering @9
+23:31:05.956859 memdb@flush created L0@11 N·22401 S·439KiB "loc..seq,v29":"n:\xff..ong,v15629"
+23:31:05.962096 version@stat F·[4] S·440KiB[440KiB] Sc·[1.00]
+23:31:06.014347 db@janitor F·6 G·0
+23:31:06.014418 db@open done T·125.762974ms
+23:31:06.014738 table@compaction L0·4 -> L1·0 S·440KiB Q·22413
+23:31:06.280890 table@build created L1@14 N·6654 S·237KiB "loc..seq,v29":"version,v1"
+23:31:06.280973 version@stat F·[0 1] S·237KiB[0B 237KiB] Sc·[0.00 0.00]
+23:31:06.304695 table@compaction committed F-3 S-202KiB Ke·0 D·15755 T·289.848953ms
+23:31:06.306137 table@remove removed @8
+23:31:06.306260 table@remove removed @5
+23:31:06.306413 table@remove removed @2
+23:34:43.410790 db@close closing
+23:34:43.412114 db@close done T·1.320438ms
